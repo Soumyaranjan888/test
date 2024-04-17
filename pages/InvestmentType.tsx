@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Styles from "./css/InvestmentType.module.css";
 import ApprovalStyles from "./css/ApprovalModal.module.css";
-import InvestmentTypejson from "./json/InvestmentTypejson.json";
+import InvestmentTypejson from "@/pages/json/InvestmentTypeJson.json";
 import ApprovalModal from './modals/ApprovalModal';
 // import closeIcon from '../public/xclose.svg';
 // import explanationIcon from '../public/xclose.svg';
