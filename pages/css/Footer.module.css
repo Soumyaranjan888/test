@@ -1,0 +1,6 @@
+.footer {
+    background-color:#534e4e; /* Dark gray background */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Center-align the content inside the footer */
+  }

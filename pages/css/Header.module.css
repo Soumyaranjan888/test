@@ -1,0 +1,64 @@
+/* pages/css/Header.module.css */
+
+.header {
+    background-color: #EBEEF3;
+
+    color: #000;
+    /* Change the text color as desired */
+    padding: 10px 0;
+    /* Adjust padding as needed */
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+    display: flex;
+}
+
+.header nav ul li {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* Adjust spacing between tabs as needed */
+}
+
+.header nav ul li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last tab */
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #B1B4BB;
+    /* Change tab text color as desired */
+    padding: 5px 10px;
+    /* Add padding to create clickable area */
+    border-radius: 5px;
+    /* Add rounded corners */
+}
+
+.header nav ul li a:hover,
+.header nav ul li.active a {
+    background-color: #000;
+    /* Background color of the active/hovered tab */
+    color: #fff;
+    /* Text color of the active/hovered tab */
+}
+
+.memberdetails {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 30px;
+}
+
+
+.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+.disable a {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

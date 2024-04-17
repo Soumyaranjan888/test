@@ -1,6 +1,15 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+// pages/_app.js
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+import React from 'react';
+import Layout from '../components/Layout';
+import { AppProps } from 'next/app'; // Import the AppProps type from Next.js
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
+
+export default MyApp;
